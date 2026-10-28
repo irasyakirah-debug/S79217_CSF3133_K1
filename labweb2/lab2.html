@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>My Personal Profile</h1>
+        <p>Welcome to my personal webpage!</p>
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+        <a href="#profile">My Profile</a> |
+        <a href="#form">Registration Form</a>
+    </nav>
+
+    <!-- Personal profile section -->
+    <section id="profile">
+        <h2>About Me</h2>
+
+        <!-- Article containing personal information -->
+        <article>
+            <h3>Personal Information</h3>
+
+            <!-- Table displaying personal information -->
+            <table border="1">
+                <tr>
+                    <th>Information</th>
+                    <th>Details</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>Syakirah</td>
+                    <td>Nur Syakirah Binti Abd Rashid</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>20</td>
+                    <td>My current age is 20</td>
+                </tr>
+                <tr>
+                    <td>Occupation</td>
+                    <td>Student</td>
+                    <td>University Malaysia Terengganu</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+
+    <!-- User registration form section -->
+    <section id="form">
+        <h2>Personal Information Form</h2>
+
+        <form action="#" method="get">
+
+            <!-- Name input -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <!-- Email input -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <!-- Gender radio buttons -->
+            <p>Gender:</p>
+
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Hobby checkboxes -->
+            <p>Favorite Hobbies:</p>
+
+            <input type="checkbox" id="reading" name="hobbies" value="Reading">
+            <label for="reading">Reading</label><br>
+
+            <input type="checkbox" id="music" name="hobbies" value="Listening to Music">
+            <label for="music">Listening to Music</label><br>
+
+            <input type="checkbox" id="movies" name="hobbies" value="Watching Movies">
+            <label for="movies">Watching Movies</label><br>
+
+            <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+            <label for="gaming">Gaming</label>
+            <br><br>
+
+            <!-- Submit button -->
+            <input type="submit" value="Submit">
+
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2026 My Personal Profile</p>
+    </footer>
+
+</body>
+</html>
