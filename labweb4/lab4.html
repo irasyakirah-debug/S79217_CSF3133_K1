@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Responsive Webpage</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            text-decoration: underline;
+        }
+
+        h3 {
+            text-decoration: overline;
+        }
+
+        .strike {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My First Website</h1>
+        <p>Welcome to my responsive webpage!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my first HTML and CSS webpage.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+
+        <article>
+            <h3>Introduction</h3>
+            <p>
+                This website is created using HTML5
+                and Cascading Style Sheets (CSS).
+            </p>
+
+            <p class="strike">
+                This text has a line through it.
+            </p>
+        </article>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+        <h2>My Video</h2>
+
+        <video controls width="500">
+            <source src="form5fv.mp4" type="video/mp4">
+
+            <track src="captions.vtt"
+                   kind="captions"
+                   srclang="en"
+                   label="English"
+                   default>
+
+            Your browser does not support video.
+        </video>
+
+        <p>Watch the video above.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name"
+                   name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email"
+                   name="email" required>
+
+            <p>Gender:</p>
+
+            <input type="radio" id="male"
+                   name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female"
+                   name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <p>Favorite Hobbies:</p>
+
+            <input type="checkbox" id="reading"
+                   name="hobby" value="Reading">
+            <label for="reading">Reading</label>
+
+            <input type="checkbox" id="music"
+                   name="hobby" value="Music">
+            <label for="music">Music</label>
+
+            <input type="checkbox" id="sports"
+                   name="hobby" value="Sports">
+            <label for="sports">Sports</label>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My First Website</p>
+    </footer>
+
+</body>
+</html>

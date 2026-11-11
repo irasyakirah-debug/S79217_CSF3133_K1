@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header */
+header {
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+/* Navigation Hover */
+nav li a:hover {
+    background-color: #555;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Video */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #336699;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #224466;
+}
+
+/* Link Styling */
+nav li a:link {
+    color: white;
+}
+
+nav li a:visited {
+    color: lightblue;
+}
+
+nav li a:hover {
+    color: yellow;
+    background-color: #555;
+}
+
+nav li a:active {
+    color: red;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
