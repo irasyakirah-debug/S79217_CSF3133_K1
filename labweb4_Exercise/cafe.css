@@ -1,0 +1,245 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF2E9;
+}
+
+
+/* Header Section */
+header {
+    background-color: #7D3C24;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* Navigation Bar */
+nav {
+    background-color: #4A235A;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    display: block;
+    background-color: #4A235A;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* Navigation Hover */
+nav li a:hover {
+    background-color: #AF601A;
+}
+
+
+/* Link States */
+/* Keep this order: link, visited, hover, active */
+
+a:link {
+    color: #1A5276;
+}
+
+a:visited {
+    color: #7D3C98;
+}
+
+a:hover {
+    color: #E67E22;
+}
+
+a:active {
+    color: #C0392B;
+}
+
+
+/* Navigation Link States */
+nav li a:link {
+    color: white;
+}
+
+nav li a:visited {
+    color: white;
+}
+
+nav li a:hover {
+    color: yellow;
+    background-color: #AF601A;
+}
+
+nav li a:active {
+    color: red;
+}
+
+
+/* Menu Section */
+#menu {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+/* Menu Items */
+.item {
+    background-color: #FDF2E9;
+    border: 1px solid #D5BDAF;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+
+/* Old Price */
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+/* Highlight Price */
+.highlight {
+    font-weight: bold;
+    color: #C0392B;
+}
+
+
+/* Video Section */
+#video {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* Responsive Video */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Video Caption */
+figcaption {
+    font-style: italic;
+    color: #555555;
+    margin-top: 10px;
+}
+
+
+/* Feedback Section */
+#feedback {
+    background-color: #F5EEF8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+/* Feedback Form */
+.feedback-form {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #7D3C98;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+/* Text Inputs */
+.feedback-form input[type="text"],
+.feedback-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+/* Submit Button */
+.feedback-form button {
+    background-color: #7D3C98;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Button Hover */
+.feedback-form button:hover {
+    background-color: #4A235A;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #4A235A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Footer Email Link */
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: lightblue;
+}
+
+footer a:hover {
+    color: yellow;
+}
+
+footer a:active {
+    color: red;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+
+    /* Navigation on Small Screens */
+    nav ul {
+        flex-direction: column;
+    }
+
+    /* Section Spacing */
+    section {
+        margin: 10px;
+    }
+
+    /* Video */
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Feedback Form */
+    .feedback-form {
+        width: 100%;
+    }
+
+}
