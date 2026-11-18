@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* header */
+
+/* Header with background image */
+header {
+    background-image: url("paper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Header title */
+header h1 {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Header paragraph */
+header p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/*navigation */
+
+/* Navigation background */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Align navigation items horizontally */
+nav li {
+    float: left;
+}
+
+/* Navigation links */
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Navigation hover effect */
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Active Home link */
+nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* content */
+
+/* Main content area */
+main {
+    padding: 20px;
+}
+
+/* Main heading */
+main h2 {
+    font-family: 'Merriweather', serif;
+    color: #1B4F72;
+}
+
+/* Paragraph styling */
+main p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* table */
+
+/* Table structure */
+#product {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Table cells */
+#product td,
+#product th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Table heading */
+#product th {
+    background-color: #1B4F72;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* Alternating table row colours */
+#product tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Table hover effect */
+#product tr:hover {
+    background-color: #ddd;
+}
+
+/* Align Price column to the right */
+#product td.price {
+    text-align: right;
+}
+
+/* footer */
+
+/* Footer styling */
+footer {
+    background-color: #EFE6D8;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Footer paragraph */
+footer p {
+    margin: 0;
+    line-height: 1.6;
+}
